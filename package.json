@@ -1,0 +1,27 @@
+{
+  "title": "Fire OWA",
+  "name": "fireowa",
+  "version": "0.0.1",
+  "description": "Provide below features for OWA 2010 (Outlook Web Application)\n1. Auto Login.\n2. Auto select 'This is a private computer'.\n\nRemarks: The password is retrieved from Firefox's password manager.  Nothing will happen if it is not available.",
+  "main": "index.js",
+  "author": "Jason Ching",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "AGPL-3.0",
+
+  "preferences": [
+    {
+      "name": "URL",
+      "title": "OWA URL",
+      "type": "string",
+      "value": "https://superhub.hk/"
+    },
+    {
+      "name": "User Name",
+      "title": "Login User Name",
+      "type": "string",
+      "value": ""
+    }
+  ]
+}
