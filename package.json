@@ -8,20 +8,5 @@
   "engines": {
     "firefox": ">=38.0a1"
   },
-  "license": "AGPL-3.0",
-
-  "preferences": [
-    {
-      "name": "URL",
-      "title": "OWA URL",
-      "type": "string",
-      "value": "https://superhub.hk/"
-    },
-    {
-      "name": "User Name",
-      "title": "Login User Name",
-      "type": "string",
-      "value": ""
-    }
-  ]
+  "license": "AGPL-3.0"
 }
