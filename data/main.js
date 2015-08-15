@@ -5,7 +5,7 @@ self.port.on("username", function(message) {
 });
 
 self.port.on("password", function(message) {
-	console.log("FireOwa - password " + message);
+	console.log("FireOwa - password xxxx");
 	document.getElementById('password').value = message;
 	loginIfReady();
 })
